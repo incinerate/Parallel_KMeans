@@ -1,0 +1,13 @@
+I personally optimized Kmeans.cpp in sequential mode. The new file named Kmeans_seq.cpp. To run this c++ file, please run command line:
+
+./kmeans2
+
+The kmeans_mpi.cpp used for speedup kmeans clustering in parallel mode by MPI. Running 
+
+mpirun -n <number of processor> ./kmeans_mpi 
+
+to check my results.
+
+File kmeans.cpp is the original file which implement kmeans algorithm. But there are lots of unneseccery For loop in the line. You can compare
+
+its result to the optimized one in results folder.
