@@ -5,8 +5,6 @@ Examples of datasets are in datasets folder.
 
 References are in references folder.
 
-This link was very useful for me: http://mnemstudio.org/clustering-k-means-example-1.htm
-
 The implementation is in the file kmeans.cpp.
 
 Each dataset is in format expected by the program.
@@ -52,5 +50,3 @@ Example that contains data point name (iris-data):
 The euclidean distance was used for to calculate the distance of each data point for the centroid of cluster.
 
 The algorithm stops by maximum number of iterations or if no data point exchange cluster.
-
-Doubts? mcastrosouza@live.com
